@@ -22,6 +22,7 @@ export default function Post() {
         <h3 className='comments-title'>Comments</h3>
         <section>
             <CommentForm 
+                autoFocus
                 loading={loading} 
                 error={error} 
                 onSubmit={onCommentCreate}
